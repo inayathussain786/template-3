@@ -1,0 +1,134 @@
+#cfp .container {
+	background-color: aliceblue;
+}
+
+#cfp {
+	font-family: 'Varela', sans-serif;
+	text-align: justify;
+	font-size: 16px;
+	margin: 3em 0;
+}
+
+#cfp h3 {
+	font-weight: 700;
+	font-family: 'Varela', sans-serif;
+	color: #5b5b5b;
+	font-size: 30px;
+}
+
+#cfp ul {
+	list-style: inside;
+	padding: 0 30px;
+}
+
+.myUl {
+	text-decoration: underline;
+	display: inline;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+th, td {
+	padding: 0 5px;
+}
+
+th {
+	background-color: #b9c9fe;
+	color: #039;
+}
+
+td {
+	background-color: #d0dafd;
+	color: #339;
+}
+
+@media screen and (min-width: 1680px) {
+
+	.container {
+		width: 80%;
+	}
+
+	#tb {
+		width: 100%;
+		height: 225px;
+		max-width: 465px;
+	}
+}
+
+@media screen and (max-width: 1680px) {
+
+	body {
+		margin-top: 8em;
+	}
+
+	#tb {
+		width: 100%;
+		height: 225px;
+		max-width: 465px;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+
+	body {
+		margin-top: 8em;
+	}
+
+	#tb {
+		width: 100%;
+		height: 225px;
+		max-width: 465px;
+	}
+}
+
+@media screen and (max-width: 980px) {
+
+	body {
+		margin-top: 8em;
+	}
+
+	#tb {
+		width: 100%;
+		height: 225px;
+		max-width: 465px;
+	}	
+}
+
+@media screen and (max-width: 768px) {
+
+	body {
+		margin-top: 8em;
+	}
+
+	#tb {
+		width: 100%;
+		height: 225px;
+		max-width: 465px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+
+	body {
+		margin-top: 7em;
+	}
+
+	#tb {
+		width: 100%;
+		height: 225px;
+		max-width: 465px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+
+	body {
+		margin-top: 6em;
+	}
+
+	#tb {
+		width: 100%;
+		height: 225px;
+		max-width: 465px;
+	}
+}

@@ -1,0 +1,106 @@
+#policy .container {
+	background-color: aliceblue;
+}
+
+#policy {
+	font-family: 'Varela', sans-serif;
+	text-align: justify;
+	margin: 3em 0;
+}
+
+h3 {
+	font-weight: 700;
+	font-family: 'Varela', sans-serif;
+	color: #5b5b5b;
+	font-size: 30px;
+}
+
+#policy p {
+	font-size: 16px;
+}
+
+#policy ul {
+	list-style: inside;
+	font-size: 16px;
+}
+
+#policy ul li {
+	padding: 30px 0;
+}
+
+@media screen and (max-width: 1680px) {
+
+	body {
+		margin-top: 7em;
+	}
+
+	#policy ul {
+		padding: 0 30px;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+
+	body {
+		margin-top: 6em;
+	}
+
+	#policy ul {
+		padding: 0 30px;
+	}
+}
+
+@media screen and (max-width: 980px) {
+
+	body {
+		margin-top: 6em;
+	}
+
+	#policy ul {
+		padding: 0 30px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+	body {
+		margin-top: 6em;
+	}
+
+	#policy ul {
+		padding: 0 30px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+
+	body {
+		margin-top: 5em;
+	}
+
+	#policy ul {
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 360px) {
+
+	body {
+		margin-top: 5em;
+	}
+
+	#policy ul {
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 320px) {
+
+	body {
+		margin-top: 5em;
+	}
+
+	#policy ul {
+		padding: 0;
+	}
+}
